@@ -1,0 +1,61 @@
+﻿-- Script Date: 11/8/2018 9:07 AM  - ErikEJ.SqlCeScripting version 3.5.2.75
+INSERT INTO [Books]([Book])
+VALUES
+("1 Nephi");
+
+INSERT INTO [Books]([Book])
+VALUES
+("2 Nephi");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Jacob");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Enos");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Jarom");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Omni");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Words of Mormon");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Mosiah");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Alma");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Helaman");
+
+INSERT INTO [Books]([Book])
+VALUES
+("3 Nephi");
+
+INSERT INTO [Books]([Book])
+VALUES
+("4 Nephi");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Mormon");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Ether");
+
+INSERT INTO [Books]([Book])
+VALUES
+("Moroni");
+GO

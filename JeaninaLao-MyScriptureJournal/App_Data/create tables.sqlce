@@ -1,0 +1,13 @@
+﻿-- Script Date: 11/8/2018 8:44 AM  - ErikEJ.SqlCeScripting version 3.5.2.75
+CREATE TABLE [Favorite_Scriptures] (
+  [Id] int IDENTITY (1,1)  NOT NULL
+, [Book] int  NOT NULL
+, [Chapter] int  NOT NULL
+, [Verse] int  NOT NULL
+, [Notes] nvarchar(4000)  NOT NULL
+, [Date_Added] datetime NOT NULL
+);
+GO
+ALTER TABLE [Favorite_Scriptures] ADD CONSTRAINT [PK_Favorite_Scriptures] PRIMARY KEY ([Id]);
+ALTER TABLE [Favorite_Scriptures] ADD CONSTRAINT [FK_Book] REFERENCES Books([Id]);
+GO

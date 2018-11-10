@@ -1,0 +1,5 @@
+﻿INSERT INTO Scriptures ([Book],[Chapter],[Verse],[Notes],[Date Added])
+VALUES ('2 Nephi', 2, '25: Adam fell that men might be; and men are, that they might have joy.', 'We are meant to have joy.', 11-7-2018);
+
+SELECT *
+FROM Scriptures;
